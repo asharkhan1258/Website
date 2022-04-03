@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <from action="" method="post">
+        <fieldset>
+            <legend> YOUR DETAILS </legend>
+        <label>First Name </label> <input type="text" name="fname" placeholder="Enter your First Name"> </from> </br> </br>
+        <!-- <label>password</label> <input type="password" name="fname"/> </br> </br> -->
+        <label>Last Name </label> <input type="text" name="fname" placeholder="Enter your Last Name"> </from> </br> </br>
+        <label>gender</label> <input type="radio" name="gender" id="male"/> <label for="male"> Male </label> <input type="radio" name="gender" id="female"/> <label for="female"> Female </label> </br> </br>
+        <label>hobbies</label>  <input type="checkbox" name="hobby" id="music"/> <label for="music"> music </label>
+        <input type="checkbox" name="hobby" id="football"/> <label for="football"> football </label>
+        <input type="checkbox" name="hobby" id="gym"/> <label for="gym"> gym </label>
+        <input type="checkbox" name="hobby" id="singing"/> <label for="singing"> singing </label> </br> </br>
+        <label> Message </label> <textarea rows="5" cols="30" placeholder="Text A Message"></textarea> </br> </br>
+        <label> Country </label> <select>
+                                       <option> Pakistan </option>
+                                       <option> India </option>
+                                       <option> China </option>
+                                       <option> US </option>
+                                       <option> England </option>
+                                       <option> Bangladesh</option>
+                                       <option> Srilanka </option>
+                                       <option> Westindies </option>
+                                    </select>
+                                    <br/> <br/>
+
+                                    <label> Cars </label> <select>
+                        
+                                     <optgroup label="Toyota">
+                                         
+                                     <option>Carola</option> 
+                                     <option>Yaris</option>
+                                     <option>furtuner</option>
+                                     <option>Gli</option>
+                                     <option>hilex</option>
+
+                                     </optgroup>
+
+
+                                     <optgroup label="Honda">
+
+
+                                     <option>city</option>
+                                     <option>civiv</option>
+
+                                    </optgroup>
+
+                                      </select> 
+                                      <br/> <br/>
+
+                
+                                      <label> Country </label> <input list="Cars"> 
+                                      <datalist id="Cars">
+
+                                           <option> Pakistan </option>
+                                           <option> India </option>
+                                           <option> China </option>
+                                           <option> US </option>
+                                           <option> England </option>
+                                           <option> Bangladesh</option>
+                                           <option> Srilanka </option>
+                                           <option> Westindies </option>
+
+                                        </datalist>
+                                        <br/> <br/>
+
+                                        <label class="button"> Upload file </label>
+                                        <input class="btn" type="file" name="" accept="image/*" /> <br/> <br/> 
+                                        <input class="btn" type="submit" value="Save">
+                                        <input  class="btn" type="button" value="cancel">
+                                    </fieldset>
+    </form>
+    
+</body>
+</html>
